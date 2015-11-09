@@ -49,5 +49,6 @@ int solution(int A[], int N) {
       min = difference;
     }
   }
+  free(B);
   return min;
 }
