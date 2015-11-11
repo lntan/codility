@@ -22,11 +22,9 @@ int solution(int A[], int N) {
   for (i = 1; i <= N + 1; i++) {
     NSum += i;
   }
-  printf("%d\n", NSum);
   int ASum = 0;
   for (i = 0; i < N; i++) {
     ASum += A[i];
   }
-  printf("%d\n", ASum);
   return NSum - ASum;
 }
